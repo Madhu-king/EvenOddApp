@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    height: 400px;
+    width: 300px;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'roboto';
+}
+.para{
+  font-size:30px;
+}
